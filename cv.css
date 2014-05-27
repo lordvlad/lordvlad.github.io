@@ -16,6 +16,10 @@ a {
     border-bottom: dotted 1px #777;
 }
 
+p {
+    text-align: justify;
+}
+
 a:hover, a:focus {
     border-bottom: solid 1px #777;
 }
@@ -114,4 +118,14 @@ aside ul {
     list-style-type: none;
     padding-left: 0;
     margin-left: 0;
+}
+.signature {
+    height: 3.3em;
+    display: inline-block;
+    position: relative;
+    top: .8em;
+}
+
+.address {
+    margin-top: 5em;
 }
