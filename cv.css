@@ -120,10 +120,7 @@ aside ul {
     margin-left: 0;
 }
 .signature {
-    height: 3.3em;
-    display: inline-block;
-    position: relative;
-    top: .8em;
+    margin-top: 5em;
 }
 
 .address {
