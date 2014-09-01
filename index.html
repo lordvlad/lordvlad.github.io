@@ -15,12 +15,13 @@
       .bubble {background: #6B1417; font-style: italic; font-size: 300%; display: inline-block; padding: .5em 1em; font-weight: 300; position: relative; color: white;}
       @media (max-width: 767px){ .bubble.visible-xs {display: inline-block!important;} .list.links li {padding: .5em; 0;}}
       .bubble:before {content: ' '; position: absolute; width: 0; height: 0; left: 2em; top: 2.4em; border-style: solid; border-width: .4em .4em 0 .4em; border-color: #6B1417 transparent transparent transparent;}
+      .container {max-width: 1000px;}
     </style>
   </head>
   <body>
     <div class="container">
       <div class="row" style="position:relative">
-        <div class="col-lg-8 col-md-8 col-sm-8 hidden-xs" style="position: absolute; bottom:0;">
+        <div class="col-md-6 col-sm-6 col-xs-4" style="position: absolute; bottom:0;">
 
           <ul class="list list-unstyled links">
             <li>
@@ -44,31 +45,9 @@
           </ul>
 
         </div>
-        <div class="col-lg-offset-8 col-lg-2 col-md-offset-8 col-md-2 col-sm-offset-8 col-sm-2 col-xs-6" style="position: relative">
-
-          <ul class="visible-xs list list-unstyled links" style="margin-top: 10em;">
-            <li>
-              <strong class="name">Waldemar Reusch</strong>
-            </li>
-            <li>
-              <a href="https://lordvlad.github.io/cv.html" target="_blank">CV</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/waldemarreusch" target="_blank">linkedIn</a>
-            </li>
-            <li>
-              <a href="https://www.xing.com/profile/Waldemar_Reusch" target="_blank">Xing</a>
-            </li>
-            <li>
-              <a href="https://github.com/lordvlad" target="_blank">github</a>
-            </li>
-            <li>
-              <a target="_blank" href="mailto:waldemar.reusch@googlemail.com">email me</a>
-            </li>
-          </ul>
-
+        <div class="col-md-4 col-md-offset-8 col-sm-6 col-sm-offset-6 col-xs-8 col-xs-offset-4">
+          <img src="waldi_sprechblase.png" class="pull-right img-responsive"/>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6"><img src="waldi_sprechblase.png" class="pull-right img-responsive"/></div>
       </div>
     </div>
   </body>
