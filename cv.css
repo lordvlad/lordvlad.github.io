@@ -34,7 +34,7 @@ a:hover, a:focus {
 }
 
 strong {
-    color: #009999;
+    color: #6B1417;
 }
 
 td {
@@ -44,7 +44,7 @@ td {
 
 header {
     position: relative;
-    border-bottom: solid 2px #009999;
+    border-bottom: solid 2px #6B1417;
     height: 3em;
 }
 
@@ -69,7 +69,7 @@ header address {
 }
 
 h2 {
-    background: #009999;
+    background: #6B1417;
     color: white;
     margin-left: -2em;
     padding: 0 1em;
