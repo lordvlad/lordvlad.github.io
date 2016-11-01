@@ -28,13 +28,23 @@ a:hover, a:focus {
     a {
         border-bottom: none;
     }
+
     aside {
         display: none;
+    }
+
+    article {
+      page-break-after: always;
     }
 
     article[name="files"] {
         display: none;
     }
+
+    section.first {
+        margin-top: -3.6em;
+    }
+
 }
 
 strong {
@@ -76,16 +86,16 @@ h2 {
     background: #6B1417;
     color: white;
     margin-left: -2em;
-    padding: 0 1em;
+    padding: 0 2em;
     display: inline-block;
 }
 
 section {
-    margin-left: 15em;
+    margin-left: 10em;
 }
 
 section+section {
-    border-top: dotted 1px #777;
+  border-top: dotted 1px #777;
 }
 
 
@@ -100,7 +110,7 @@ h4+h4 {
 }
 
 h5 {
-    margin-left: -15em;
+    margin-left: -10em;
     float: left;
 }
 

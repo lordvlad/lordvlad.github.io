@@ -4,7 +4,6 @@
     <meta charset="utf-8"/>
     <title>CV</title>
     <link href="cv.css" rel="stylesheet"/>
-    <link href="cv.css" rel="stylesheet"/>
   </head>
   <body>
     <header>
@@ -21,16 +20,22 @@
       <a name="skills"></a>
       <h2>Skills</h2>
 
-      <section>
+      <section class="first">
+        <h3>Core skills</h3>
+        <p><strong>Application and web development</strong>, focused on life-sciences and devoted to clean, sustainable architecture, future-proof technologies and usability, covering every lifecycle phase from application development to testing to deployment and system administration and every layer between database design and user interface.</p>
+      </section>
+      <!--
+        <section>
         <h3>Core skills</h3>
         <p><strong>Application and web development</strong>, focused on life-sciences and devoted to clean, sustainable architecture, future-proof technologies and usability, covering everything from application development to testing to deployment and system administration.</p>
         <p><strong>Database design and administration</strong>, whether it is relational, document oriented or a graph database.</p>
       </section>
+      -->
 
       <section>
         <h3>Software, programming languages and technologies</h3>
-        <p><strong>Eclipse, VSCode, Oracle DB, git, docker</strong>, Glassfish, Maven, HTCondor, SVN, Linux, Windows, Firebird DB, Vim, Microsoft and Libre Office, Jenkins, Gitlab, Firebug, Jira, Confluence, Adobe Creative Suite</p>
-        <p><strong>Java, JavaScript, HTML5, CSS3, PHP4/5, SQL, Bash</strong>, Perl, R, Matlab, Mathematica, LaTeX</p>
+        <p><strong>Eclipse, Oracle DB, git, docker, VSCode</strong>, Glassfish, Maven, HTCondor, SVN, Linux, Firebird DB, Vim, Jenkins, Gitlab, Adobe Creative Suite, Firebug, Jira, Confluence</p>
+        <p><strong>Java, JavaScript, HTML5, CSS3, PHP5, SQL, Bash</strong>, Perl, R, Matlab, Mathematica, LaTeX</p>
         <p><strong>JEE, REST, SOAP, Domain Driven Design, Object Oriented Design,</strong> (R)DBMS, functional programming, reactive programming, CI, devops, Scrum, Grid Engines</p>
       </section>
 
@@ -42,56 +47,40 @@
           <strong>Russian, Swedish</strong> elementary proficiency<br/>
         </p>
       </section>
-
     </article>
+
     <article>
       <a name="experience"></a>
       <h2>Work Experience</h2>
       <section>
         <h3>Software Engineer and IT Allrounder</h3>
-        <h5>since March 2015</h5>
+        <h5>since Mar 2015</h5>
         <h4><a href="http://www.insilico-biotechnology.com/" target="_blank">Insilico Biotechnology AG</a> <small>Stuttgart, Germany</small></h4>
         <p><strong>Developing enterprise grade software</strong> for the design and simulation of metabolic network models, quantitative comparison of bioprocess performance and feed media optimization.</p>
         <p><strong>Contribution of software engineering expertise</strong> throughout the software development lifecycle, from requirements, through design and implementation to deployment and in all layers between database, middleware, grid engine and user interface.</p>
         <p><strong>Maintanance and administration of IT infrastructure</strong> including multiple testing and deployment machines running CentOS and SUSE Linux, Oracle 11g database, the CI pipeline, an HTCondor compute cluster and containerized applications.
         </p>
       </section>
-      <section>
-        <h3>Diploma Thesis <small>Development of a novel Protein Database System for Sequence-Structure-Function Relationships: BioCatNet</small></h3>
-        <h5>October 2013 - December 2014 <small>(14 months)</small></h5>
-        <h4><a href="http://www.itb.uni-stuttgart.de" target="_blank">Institute of technical Biochemistry</a> <small> University of Stuttgart, Germany</small></h4>
-        <p><strong>Development of a bioinformatic data warehouse application</strong> capable of holding and managing protein sequence, structure and function information.</p>
-        <p><strong>Development of the database, application middleware, Application Programming Interface and User Interface</strong> using PHP, Perl, HTML, CSS and JavaScript.</p>
-        <p><strong>Maintanance and administration of IT infrastructure</strong> including Apache HTTP and Firebird database servers on Debian Linux machines.</p>
-        <p>The system is publicly available for scientific use on <a href="http://www.teed.uni-stuttgart.de">http://www.teed.uni-stuttgart.de</a></p>
-      </section>
 
       <section>
         <h3>Internship</h3>
         <!--<h3>Internship <small>Reconstruction of a Metabolic Model of <em>Streptomyes albus</em></small></h3>-->
         <!--<h3>Internship <small>Reconstruction of a Metabolic Model of <em>Streptomyes albus</em> Strain&nbsp;J&nbsp;1074</small></h3> -->
-        <h5>May 2013 - July 2013 <small>(3 months)</small></h5>
+        <h5>May 2013 - Jul 2013 <small>(3 months)</small></h5>
         <h4><a href="http://www.insilico-biotechnology.com" target="_blank">Insilico Biotechnology AG</a> <small>Stuttgart, Germany</small></h4>
-        <p><strong>Developing a genome-scale metabolic flux model</strong> of an antibiotics producing bacteria. Extensive literature and database research, modelling with proprietary software.</p>
+        <p><strong>Developing a genome-scale metabolic flux model</strong> of an antibiotics producing bacteria including extensive literature and database researchand modelling with proprietary software.</p>
       </section>
 
       <section>
         <h3>Research Assistant</h3>
-        <h5>November 2012 - April 2013 <small>(6 months)</small></h5>
+        <h5>Nov 2012 - Apr 2013 <small>(6 months)</small></h5>
         <h4><a href="http://www.itb.uni-stuttgart.de" target="_blank">Institute of Technical Biochemistry</a> <small>University of Stuttgart, Germany</small></h4>
-        <p><strong>Development of an User Interface</strong> for the novel enzyme sequence-structure-function database BioCatNet. Development on Windows, using PHP, HTML, CSS and JavaScript as templating, markup, styling and action scripting languages, respectively.</p>
-      </section>
-
-      <section>
-        <h3>Student Research Paper <small><a href="student-research-paper.html" target="_blank">Analyse thermokinetischer Potential-Strom-Kennlinien an einem Modell von <em>Escherichia coli</em></a></small></h3>
-        <h5>October 2011 - June 2012 <small>(9 months)</small></h5>
-        <h4><a href="http://www.isys.uni-stuttgart.de" target="_blank">Institute for System Dynamics</a> <small>University of Stuttgart, Germany</small></h4>
-        <p><strong>Assessing the predictive quality</strong> of the novel modelling technique Thermokinetic Modelling through automated simulations. Programming scripts with Mathematica, R and the shell on a Linux system.</p>
+        <p><strong>Development of an User Interface</strong> for the novel enzyme sequence-structure-function database BioCatNet using PHP, HTML, CSS and JavaScript.</p>
       </section>
 
       <section>
         <h3>Research Assistant</h3>
-        <h5>January 2011 - June 2011 <small>(6 months)</small></h5>
+        <h5>Jan 2011 - Jun 2011 <small>(6 months)</small></h5>
         <h4><a href="http://www.ifm.liu.se" target="_blank">Department of Physics, Chemistry and Biology</a> <small>Link&ouml;ping University, Sweden</small></h4>
         <p><strong>Gene Expression Analysis</strong> of the late flowering gene in the common pea <em>Pisum sativum</em>. Working with PCR/rtPCR maschienes, DNA/RNA-extraction kits and Gelelektrophoresis.</p>
       </section>
@@ -103,17 +92,31 @@
       <h2>Education</h2>
       <section>
         <h3>Dipl. Biologe, t.o. <small>technically oriented Biology diploma</small></h3>
-        <h5>October 2007 - November 2014</h5>
-        <h4>University of Stuttgart, Germany</h4>
-        <p>Focus: Bioinformatics, Biophysics</p>
-        <p>Activities and Memberships: Fachschaftsvertretung Technische Biologie, Technischen Biologen an der Universit&auml; Stuttgart e.V.</p>
-
-        <h5>January 2011 - June 2011</h5>
-        <h4>Link&ouml;ping University <small>Sweden</small></h4>
-        <p>Focus: Neuroscience, Gene Expression</p>
-        <p>Activities and Memberships: LinTek</p>
+        <h5>Oct 2007 - Nov 2014</h5>
+        <h4>University of Stuttgart, Germany
+        <small>Focus: Bioinformatics, Biophysics</small></h4>
+        <!--<p>Activities and Memberships: Fachschaftsvertretung Technische Biologie, Technischen Biologen an der Universit&auml; Stuttgart e.V.</p>-->
+        <br/>
+        <h5>Jan 2011 - Jun 2011</h5>
+        <h4>Link&ouml;ping University, Sweden
+          <small>Focus: Neuroscience, Gene Expression</small></h4>
+        <!-- <p>Activities and Memberships: LinTek</p> -->
       </section>
 
+      <section>
+        <h3>Diploma Thesis <small>Development of a novel Protein Database System for Sequence-Structure-Function Relationships: BioCatNet</small></h3>
+        <h5>Oct 2013 - Dec 2014 <small>(14 months)</small></h5>
+        <h4><a href="http://www.itb.uni-stuttgart.de" target="_blank">Institute of technical Biochemistry</a> <small> University of Stuttgart, Germany</small></h4>
+        <p><strong>Development of a bioinformatic data warehouse application including middleware, API and UI</strong>, capable of holding and managing protein sequence, structure and function information, using PHP, Perl, HTML, CSS and JavaScript. The system is publicly available for scientific use on <a href="http://www.teed.uni-stuttgart.de">http://www.teed.uni-stuttgart.de</a></p>
+        <p><strong>Maintanance and administration of IT infrastructure</strong> including Apache HTTP and Firebird database servers on Debian Linux machines.</p>
+      </section>
+
+      <section>
+        <h3>Student Research Paper <small><a href="student-research-paper.html" target="_blank">Analyse thermokinetischer Potential-Strom-Kennlinien an einem Modell von <em>Escherichia coli</em></a></small></h3>
+        <h5>Oct 2011 - Jun 2012 <small>(9 months)</small></h5>
+        <h4><a href="http://www.isys.uni-stuttgart.de" target="_blank">Institute for System Dynamics</a> <small>University of Stuttgart, Germany</small></h4>
+        <p><strong>Assessing the predictive quality</strong> of the novel modelling technique <em>Thermokinetic Modelling</em> through automated simulations, using Mathematica, R and bash scripts on a Linux system.</p>
+      </section>
 <!--      <section>
         <h3>Allgemeine Hochschulreife <small>general qualification for university entrance</small></h3>
 
@@ -129,7 +132,8 @@
 -->
 
 
-    <article>
+<!--
+  <article>
       <a name="personal"></a>
       <h2>Personal</h2>
       <section>
@@ -142,6 +146,7 @@
         <p>Webdesign and -development, Gadgets and emerging Technologies, Biotechnology, Analog Photography, Art and Design, Music, Movies, Electronics, Gardening</p>
       </section>
     </article>
+-->
 
     <article name="files">
       <a name="files"></a>
@@ -163,7 +168,7 @@
     </article>
 
     <aside>
-      <h4>navigation</h4>
+      <h4>Navigation</h4>
       <ul>
         <li><a href="https://lordvlad.github.io">Home</a></li>
 				<li>&nbsp;</li>
